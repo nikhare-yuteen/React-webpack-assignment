@@ -1,0 +1,113 @@
+body{
+    padding-bottom: 40px;
+    background-color: wheat;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    padding:10px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: wheat;
+    margin: 0 auto;
+    width: 98%;
+    /* height: 555px; */
+}
+.mainContainer .userList{
+    float:left;
+    width:20%;
+    background-color: #e2cccc;
+    overflow-y: auto;
+    height: 625px;
+
+}
+.container .main{
+    float:left;
+    width:80%;
+    background-color: #ecaeae;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 553px;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #323a58;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.header-text, .footer-text
+{
+  text-align: center;
+  font-size: 27px;
+  color: #ffc520;
+}
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 0px;
+    /* display: inline-flex; */
+}
+.inner {
+    border: 1px solid;
+    border-radius: 8px;
+    height: 30px;
+    width: 80%;
+    margin-left: 12px;
+    height: 38px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 24px;
+}
+.drag {
+    border: 1px solid;
+    border-radius: 8px;
+    height: 58px;
+    width: 35%;
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    background: seashell;
+}
+.drag .text {
+    margin-top: 42px;
+    margin-left: 140px;
+    width: 100%;
+}
+.drag .close{
+    margin-top: -35px;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: firebrick;
+    height: 24px;
+    width: 37px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 7px;
+    color: burlywood;
+
+}
+.drag .close .display{
+  display: block;
+}
+.highlight {
+  background: #e1e1e1;
+  border-top: 1px solid #d0d0d0;
+}
+.drag .highlight {
+   border:1px solid red;
+}
+span{
+  display:none;
+}
